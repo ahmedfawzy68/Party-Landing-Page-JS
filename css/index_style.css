@@ -1,0 +1,134 @@
+.sideBar {
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: -307.2px;
+  background-color: rgb(65, 70, 88);
+  z-index: 99999999;
+  transition: 1s;
+}
+.mainContact button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 30px;
+}
+.sideBar a {
+  text-decoration: none;
+  color: white;
+  margin: 20px 0px;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.mainContact {
+  margin-top: 30vh;
+  float: left;
+  width: 80%;
+  transition: 1s;
+}
+.mainContact h2 {
+  font-weight: 500;
+  font-size: 60px;
+  margin-left: 24%;
+  transition: 1s;
+}
+.mainContact p {
+  margin-left: 24%;
+  transition: 1s;
+}
+.MainParty {
+  height: 90vh;
+  background-image: url(../Images/events-heavenly-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.sideBar button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 5%;
+  font-size: 36px;
+}
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 46, 51, 0.6);
+}
+.sideBar a:hover,
+.sideBar button:hover {
+  color: rgba(214, 46, 51, 0.4);
+}
+
+@media screen and (max-width: 600px) {
+  .sideBar a {
+    font-size: 15px;
+    padding-top: 25px;
+  }
+  .sideBar button {
+    font-size: 15px;
+  }
+}
+
+#Details h3 {
+  background-color: rgba(214, 46, 51, 0.6);
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  margin: 0px;
+}
+#Details div {
+  background-color: rgb(204, 204, 204);
+  padding: 10px;
+  display: none;
+}
+.container {
+  padding: 100px 0px !important;
+}
+.counterParent {
+  background-image: url(../Images/invitation-2508607__340.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  min-height: 330px;
+}
+.counter {
+  padding: 50px;
+  border: 1px solid white;
+}
+@media screen and (max-width: 992px) {
+  .counterParent {
+    min-height: 450px;
+  }
+  .counter {
+    padding: 20px;
+  }
+}
+#Contact p {
+  font-size: 16px;
+  color: #777;
+}
+#Contact .icons i {
+  border: 1px solid #777;
+  padding: 15px;
+  color: #777;
+  margin: 5px;
+  font-size: 19px;
+}
+#Contact .icons i:hover {
+  background-color: rgb(214, 46, 51);
+  border: 1px solid rgb(214, 46, 51);
+  color: white;
+}
+#Contact button {
+  background-color: rgb(214, 46, 51);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
